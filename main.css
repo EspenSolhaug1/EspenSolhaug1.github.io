@@ -161,27 +161,31 @@ html {
 
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Open sans', sans-serif;
     min-width: 300px;
-    min-height: 100%;
+    min-height: 100vh;
     position: relative;
     background-color: rgb(245, 245, 245);
     /* margin-bottom: 142px; */
 }
 
-main {
+/* main {
+    
+} */
+
+.body-container {
+    background-color: rgb(240, 240, 240);
+    height: calc(100% - 200px);
+    flex-grow: 1;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
     z-index: 1;
     align-self: center;
-}
-
-.body-container {
-    background-color: rgb(240, 240, 240);
-    height: calc(100% - 200px);
-    flex-grow: 1;
 }
 .content-container {
     width: 100%;
@@ -612,7 +616,16 @@ button.btn:nth-child(1) {
 
 /* Footer */
 
-.footer-container {
+/* .footer-container {
+    
+} */
+
+.footer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
     padding-right: 0;
     padding-left: 0;
     background-color: #dcedf5;
@@ -620,13 +633,6 @@ button.btn:nth-child(1) {
     border-top-style: solid;
     border-color: #b1b1b1;
     width: 100%;
-}
-
-.footer {
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .footer-column {
