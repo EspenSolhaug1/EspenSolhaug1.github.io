@@ -179,6 +179,8 @@ body {
     background-color: rgb(240, 240, 240);
     height: calc(100% - 200px);
     flex-grow: 1;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
 
     display: flex;
     flex-direction: column;
@@ -623,6 +625,7 @@ button.btn:nth-child(1) {
 .footer {
     height: 200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
 
@@ -633,9 +636,19 @@ button.btn:nth-child(1) {
     border-top-style: solid;
     border-color: #b1b1b1;
     width: 100%;
+
+    > .col-md-4 {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        margin-left: auto;
+        margin-bottom: 10px;
+    }
 }
 
 .footer-column {
+    display: flex;
+    flex-direction: column;
     flex: 1 0 200px;
     margin-top: 5px;
     text-align: center;
@@ -658,6 +671,7 @@ button.btn:nth-child(1) {
     margin-bottom: 0.2rem;
     font-weight: lighter;
 }
+
 
 .nav-container {
     background-color: #dcedf5;
