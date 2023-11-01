@@ -168,12 +168,9 @@ body {
     min-height: 100vh;
     position: relative;
     background-color: rgb(245, 245, 245);
-    /* margin-bottom: 142px; */
 }
 
-/* main {
-    
-} */
+
 
 .body-container {
     background-color: rgb(240, 240, 240);
@@ -254,7 +251,6 @@ body {
 .carousel-control-prev, .carousel-control-next {
     width: 10%;
     filter: invert(100%);
-    /* background-color: rgb(12, 12, 12); */
 }
 
 
@@ -295,10 +291,12 @@ body {
   .scroll-right {
     padding-left: 1em;
     box-shadow: 3px 3px 10px grey;
+    border: 2px solid rgb(180, 180, 180);
   }
   .scroll-left {
     padding-right: 1em;
     box-shadow: -3px 3px 10px grey;
+    border: 2px solid rgb(180, 180, 180);
   }
 .item-title {
     position: relative;
@@ -321,12 +319,7 @@ body {
     font-size: small;
     line-height: 0.7rem;
 }
-/* @media (max-width: 1200px) {
-    .item-description {
-        font-size: small;
-        line-height: 0.5rem;
-    }
-} */
+
 @media (max-width: 900px) {
     .item-description {
         font-size: x-small;
@@ -352,6 +345,7 @@ body {
     width: auto;
     object-fit: cover;
 }
+
 /* End Home Project Scroller */
 
 .icon-square {
@@ -547,11 +541,9 @@ body {
     }
 }
 
-
 button.btn:nth-child(1) {
     background-color: #c2c8cc;
 }
-
 
 
 /* Project */
@@ -616,11 +608,8 @@ button.btn:nth-child(1) {
 }
 /* END References list */
 
-/* Footer */
 
-/* .footer-container {
-    
-} */
+/* Footer */
 
 .footer {
     height: 200px;
