@@ -286,17 +286,15 @@ body {
     display: none;
   }
   .scroll-right, .scroll-left {
-    background-color: #f3f3f3;
+    background-color: #f0f0f0;
   }
   .scroll-right {
     padding-left: 1em;
-    box-shadow: 3px 3px 10px grey;
-    border: 2px solid rgb(180, 180, 180);
+    border: none;
   }
   .scroll-left {
     padding-right: 1em;
-    box-shadow: -3px 3px 10px grey;
-    border: 2px solid rgb(180, 180, 180);
+    border: none;
   }
 .item-title {
     position: relative;
@@ -443,9 +441,9 @@ body {
 }
 
 .employeeCollection {
-    margin: 2px;
+    margin: 2px 0px;
     padding-top: 50px;
-    background-color: #fff8de;
+    background-color: #ffffe4;
 }
 
 .employee-info {
@@ -453,6 +451,11 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.employeeCollection h2 {
+    width: calc(100%-5em);
+    margin-left: 5em;
 }
 
 
