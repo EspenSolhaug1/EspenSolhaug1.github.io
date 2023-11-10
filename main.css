@@ -13,6 +13,12 @@ html {
     width: 100%;
 }
 
+@media screen and (max-width:767px) {
+    #navbar {
+        padding-bottom: 0;
+    }
+}
+
 .navbar-brand {
     display: flex;
     justify-content: center;
@@ -20,7 +26,7 @@ html {
     width: 100%;
 }
 .navbar-brand img {
-    width: 350px;
+    width: 300px;
     height: auto;
 }
 
@@ -40,6 +46,25 @@ html {
     display: none;
 }
 
+.navbar-nav {
+    display: flex;
+    margin-top: 9px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #8fb0ca;
+}
+
+@media screen and (max-width:767px) {
+    .navbar-nav {
+        margin-top: 0px;
+    }
+}
+
 @media (max-width: 767px) {
     #navbarToggler {
         display: flex;
@@ -56,18 +81,7 @@ html {
     color: white !important;
 }
 
-.navbar-nav {
-    display: flex;
-    margin-top: 0px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 100%;
-    border-bottom: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: #8fb0ca;
-}
+
 
 #dropdownMenu {
     width: 100%;
