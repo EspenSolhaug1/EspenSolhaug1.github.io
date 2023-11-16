@@ -606,19 +606,16 @@ button.btn:nth-child(1) {
 }
 
 .col-md-6 ul {
-    list-style-type: square;
     padding: 5px 20px;
 }
 
 /* References list */
 
 #prosjektering >.col-md-6 > ul > ul {
-    list-style: none;
     padding-left: 20px;
 }
 
 #prosjektering > .col-md-6 > ul > ul > li::before {
-    content: '▶';
     position: relative;
     left: -10px;
 }
