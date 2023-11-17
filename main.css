@@ -26,8 +26,13 @@ html {
     width: 100%;
 }
 .navbar-brand img {
-    width: 300px;
+    width: 450px;
     height: auto;
+}
+@media screen and (max-width:767px) {
+    .navbar-brand img {
+        width: 300px;
+    }
 }
 
 #navbar li {
