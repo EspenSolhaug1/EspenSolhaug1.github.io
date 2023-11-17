@@ -11,22 +11,6 @@ function stickyNavbar() {
   }
 }
 
-document.querySelectorAll('.nav-item').forEach(item => {
-  var timeout;
-
-  item.addEventListener('mouseenter', function() {
-      clearTimeout(timeout);
-      this.querySelector('.dropdown-menu').classList.remove('dropdown-menu-hidden');
-  });
-
-  item.addEventListener('mouseleave', function() {
-      var self = this;
-      timeout = setTimeout(function() {
-          self.querySelector('.dropdown-menu').classList.add('dropdown-menu-hidden');
-      }, 1500);
-  });
-});
-
 
 let currentSize = 'all';
 let currentTag = 'all';
